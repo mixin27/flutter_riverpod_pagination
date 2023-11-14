@@ -7,7 +7,7 @@ part of 'product_controller.dart';
 // **************************************************************************
 
 String _$paginatedProductControllerHash() =>
-    r'535c35b502ff46a9664d2dee3a785238201297e3';
+    r'd39fdfdecfebba390870b5922823feeaacb5b551';
 
 /// See also [PaginatedProductController].
 @ProviderFor(PaginatedProductController)

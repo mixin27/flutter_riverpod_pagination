@@ -8,7 +8,7 @@ part 'product_controller.g.dart';
 
 @riverpod
 class PaginatedProductController extends _$PaginatedProductController
-    with PaginationControllerMixin<Product> {
+    with AutoDisposePaginationControllerMixin<Product> {
   @override
   FutureOr<PaginatedResponse<Product>> build() =>
       loadData(const PaginationRequest(page: 1, limit: 10));
